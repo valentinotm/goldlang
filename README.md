@@ -1,0 +1,2 @@
+# goldlang
+Golden landing page.
