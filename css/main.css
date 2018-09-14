@@ -1,0 +1,240 @@
+
+/* Common styles for web-page. */
+body {
+	padding: 0;
+	margin: 0;
+	font-family: Aerial, sans-serif;
+}
+
+div {
+	box-sizing: border-box;
+}
+
+h1 {
+	font-size: 75px;
+	margin: 15px;
+}
+
+.title {
+	padding-top: 115px;
+}
+
+.title h2 {
+	font-size: 40px;
+	font-weight: bold;
+	text-align: center;
+	text-transform: uppercase;
+	margin: 0;
+}
+
+.title p {
+	color: #777;
+	text-align: center;
+	font-size: 16px;
+	margin-top: 5px;
+}
+/* End of common styles. */
+
+
+/* Clearfix. */
+.clearfix::after {
+	content: '';
+	width: 100%;
+	display: table;
+	clear: both;
+}
+
+
+header {
+	background: url(../img/first-bg.jpg) no-repeat center top / cover;
+	padding-bottom: 180px;
+}
+
+.container {
+	width: 930px;
+	margin: 0 auto;
+}
+
+.logo {
+	margin-top: 41px;
+	float: left;
+}
+
+nav {
+	float: right;
+	margin-top: 50px;
+}
+
+.menu {
+	padding: 0;
+	margin: 0;
+	display: block;
+}
+
+.menu li {
+	float: left;
+	display: block;
+}
+
+.menu a {
+	color: #fff;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 14px;
+	margin-right: 41px;
+}
+
+.titles__first, h1 {
+	text-transform: uppercase;
+	text-align: center;
+	color: #fff;
+}
+
+.titles__first {
+	font-size: 40px;
+	margin-top: 180px;
+}
+
+.button {
+	background: #fed136;
+	color: #484543;
+	display: block;
+	border-radius: 3px;
+	width: 240px;
+	padding: 20px 0;
+	margin: 0 auto;
+	text-decoration: none;
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 18px;
+	margin-top: 50px;
+}
+
+.button:hover {
+	background: #d5ae41;
+	transition: 0.3s;
+}
+/* End of styles for 'header' section.*/
+
+
+/* Styles only for 'services' section. */
+#services {
+	padding-bottom: 120px;
+}
+
+.services {
+	margin-top: 80px;
+}
+
+.services__item {
+	text-align: center;
+	width: 270px;
+	float: left;
+}
+
+.services__item img {
+	border-radius: 50%;
+}
+
+.services__item img:hover {
+	box-shadow: 0 0 50px rgba(0,0,0,0.2);
+	transition: 0.2s;
+}
+
+.services__item h3 {
+	font-size: 18px;
+	margin-bottom: 5px;
+}
+
+.services__item p {
+	color: #777;
+	font-size: 14px;
+	line-height: 1.55em;
+}
+
+.services__item:last-child {
+	float: right;
+}
+
+.services__item:nth-child(2) {
+	margin-left: 60px;
+}
+/* End of styles for services section. */
+
+
+/* Styles only for 'portfolio' section. */
+#portfolio {
+	background: #f7f7f7;
+}
+
+.works {
+	margin-top: 70px;
+	padding-bottom: 125px;
+}
+
+.works img {
+	float: left;
+}
+
+.works img:hover {
+	box-shadow: 0 0 50px rgba(0,0,0,0.2);
+	transition: 0.2s;
+}
+
+.works img:nth-child(2) {
+	margin-left: 29px;
+}
+
+.works img:last-child {
+	float: right;
+}
+/* End of styles for portfolio section. */
+
+
+/* Styles only for 'footer' section.*/
+.contents {
+	margin-top: 90px;
+}
+
+.contents > p {
+	text-align: center;
+	margin-bottom: 100px;
+}
+
+.content {
+	margin-bottom: 90px;
+}
+
+.content h3, .content p {
+	text-align: right;
+}
+
+.content:nth-child(odd) h3,
+.content:nth-child(odd) p {
+	text-align: left;
+}
+
+.content img {
+	border-radius: 50%;
+}
+
+.content img:hover {
+	box-shadow: 0 0 100px rgba(0,0,0,0.2);
+	transition: 0.2s;
+}
+
+.content:nth-child(even) img {
+	float: right;
+	margin: 0 375px 0 40px;
+}
+
+.content:nth-child(odd) img {
+	float: left;
+	margin: 0 40px 0 375px;
+}
+/* End of styles for 'footer' section. */
+
+
+
+
